@@ -1,0 +1,3 @@
+# Graph Algorithm Visualizer
+
+In preparation for the final exam for my CS1501 course at the University of Pittsburgh, I was reading my *Algorithms* textbook (Sedgewick and Wayne) and saw some pretty cool visuals depicting the process of running graph algorithms. I thought, "wow, it would be cool to make a program that animates the process of these graph algorithms running," and that's what I intend to do in this repo.
