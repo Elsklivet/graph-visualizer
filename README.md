@@ -18,3 +18,8 @@ In the future, I hope to add:
     - *Eager*: Using a PQ of only the minimum edges to *non-tree* vertices, pick minimum weighted tree->non-tree edge at each step. (Similar to dijsktra's under the hood).
 * **Kruskal's**: Another algorithm for making a minimum spanning tree, but this one does not only go from tree->non-tree, instead it creates multiple connected components at once and eventually connects them. At each step, the minimum weighted edge that does not create a cycle is added.
     - *with weighted-tree, path compressed union-find*: Using a union-find structure, cycles can be detected more efficiently.
+
+## Sources Cited
+The algorithms in this repo were not invented by me, and much of the inspiration for their implementations came from various sources. While there are only so many ways to code a specific algorithm anyway, I got specific ideas from the following sources:
+
+Sedgewick, Robert, and Kevin Wayne. *Algorithms*. 4th edition, Addison-Wesley, 2011.
